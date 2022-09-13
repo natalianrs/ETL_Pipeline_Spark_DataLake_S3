@@ -16,7 +16,9 @@ A denormalized star schema was created to model the data:
 
 ## ETL Data Pipeline Script ⚙
 The etl.py file runs the pipeline by:
-	- 
+- extracting data from different s3 buckets 
+- processing data using spark 
+- loading denormalized data into a new s3 bucket
 
 ## How to run etl pipeline 💡
 	1. Login to AWS account 
